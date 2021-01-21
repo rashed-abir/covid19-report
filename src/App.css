@@ -3,6 +3,7 @@ body {
 }
 
 .App {
+  height: 120vh;
   background: url(./assets/back.jpg) no-repeat center fixed;
   background-size: cover;
   text-align: center;
@@ -36,6 +37,10 @@ select {
   margin-left: 5px;
 }
 
+footer{
+  background-color: #cecece;
+}
+
 .card {
   background: white;
   padding: 20px;
@@ -46,7 +51,7 @@ select {
 }
 
 .graph {
-  height: 600px;
+  max-height: 600px;
   max-width: 600px;
   text-align: center;
   margin: 50px auto;
