@@ -101,7 +101,6 @@ function App() {
         </select>
       </div>
       <LineGraph yAxis={coronaCountAr} label={label} />
-      <footer>Developed by @rashed</footer>
     </div>
   );
 }
