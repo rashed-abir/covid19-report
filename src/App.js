@@ -101,6 +101,15 @@ function App() {
         </select>
       </div>
       <LineGraph yAxis={coronaCountAr} label={label} />
+      <footer>
+        Developed by{" "}
+        <a
+          style={{ color: "#273C96", textDecoration: "none" }}
+          href="https://rashed-abir.web.app/"
+        >
+          Rashed Abir
+        </a>
+      </footer>
     </div>
   );
 }
